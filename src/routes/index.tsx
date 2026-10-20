@@ -270,10 +270,10 @@ function Index() {
             As facas de Fábio Passos acompanham a alta culinária e o churrasco em cozinhas, churrasqueiras e mesas de todo o país.
           </p>
         </div>
-        <div className="mt-12 grid grid-cols-2 gap-4 md:grid-cols-4 md:grid-rows-2">
+        <div className="mt-12 grid grid-cols-2 gap-4 md:grid-cols-4 md:grid-rows-[repeat(2,15rem)]">
           {TABLE_FEATURED.map((n, i) => (
             <div key={n} className={`reveal rounded-2xl border bg-card-gradient p-2 ${i === 0 ? "col-span-2 md:row-span-2" : ""}`} style={delay(i)}>
-              <div className={`overflow-hidden rounded-xl ${i === 0 ? "aspect-[4/5] md:aspect-auto md:h-full" : "aspect-square"}`}>
+              <div className={`overflow-hidden rounded-xl ${i === 0 ? "aspect-[4/5] md:aspect-auto md:h-full" : "aspect-square md:aspect-auto md:h-full"}`}>
                 <Photo n={n} alt="Faca de Fábio Passos à mesa" />
               </div>
             </div>
