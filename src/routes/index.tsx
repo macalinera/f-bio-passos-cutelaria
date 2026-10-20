@@ -77,7 +77,7 @@ function Index() {
     <button
       type="button"
       onClick={() => setLightbox(n)}
-      className={`photo-hover block w-full cursor-zoom-in ${className}`}
+      className={`photo-hover block h-full w-full cursor-zoom-in ${className}`}
       aria-label="Ampliar foto"
     >
       <img src={photo(n)} alt={alt} loading="lazy" className="h-full w-full object-cover" />
@@ -88,7 +88,7 @@ function Index() {
     <div className="overflow-x-hidden">
       {/* NAV */}
       <header className="fixed inset-x-0 top-0 z-40 px-4 pt-4">
-        <nav className="mx-auto flex max-w-6xl items-center justify-between rounded-full border bg-background/80 px-5 py-3 backdrop-blur-md md:px-7">
+        <nav className="mx-auto flex max-w-6xl items-center justify-between rounded-full border border-foreground/15 bg-background/25 px-5 py-3 shadow-2xl shadow-background/50 backdrop-blur-xl backdrop-saturate-150 md:px-7">
           <a href="#inicio" className="leading-tight">
             <span className="block font-display text-lg tracking-[0.2em] text-gold">FÁBIO PASSOS</span>
             <span className="block text-[0.55rem] tracking-[0.3em] text-muted-foreground">CUTELARIA · AÇO DAMASCO</span>
