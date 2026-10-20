@@ -303,7 +303,7 @@ function Index() {
           <div className="space-y-4 px-2 pb-4 text-sm leading-relaxed text-muted-foreground md:pb-0">
             <p>Em 22 de novembro de 2025, na inauguração da Havan em Novo Hamburgo, o empresário Luciano Hang recebeu uma faca de lâmina ornamentada, com seu nome escrito em pingos de ouro.</p>
             <p>A peça foi encomendada a Fábio pelo prefeito Gustavo Finck, que quis a garantia de que o cuteleiro a entregaria pessoalmente.</p>
-            <a href="https://www.abcmais.com" target="_blank" rel="noreferrer" className="btn-lift mt-2 inline-block rounded-full border border-foreground/40 px-5 py-2.5 text-[0.65rem] uppercase tracking-[0.2em] text-foreground">
+            <a href="https://www.abcmais.com/brasil/rio-grande-do-sul/vale-do-rio-dos-sinos/canoas/quem-e-o-cuteleiro-que-presenteou-luciano-hang-com-uma-faca-durante-inauguracao-de-nova-loja-da-havan-2/" target="_blank" rel="noreferrer" className="btn-lift mt-2 inline-block rounded-full border border-foreground/40 px-5 py-2.5 text-[0.65rem] uppercase tracking-[0.2em] text-foreground">
               Ler a matéria no ABC+
             </a>
           </div>
