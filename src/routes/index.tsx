@@ -330,7 +330,7 @@ function Index() {
           <Eyebrow>Contato</Eyebrow>
           <h2 className="mt-5 text-4xl font-semibold leading-tight text-ivory md:text-5xl">Fale com o cuteleiro</h2>
           <div className="mt-6 h-px w-24 bg-gold/50" />
-          <p className="mt-6 text-sm text-muted-foreground">As peças são feitas sob encomenda. Cada trabalho leva de dias a semanas, conforme a complexidade.</p>
+          <p className="mt-6 text-sm text-muted-foreground">As peças são feitas sob encomenda. Cada trabalho leva de semanas a meses, conforme a complexidade.</p>
           <p className="mt-5 text-sm text-muted-foreground">Acompanhe cada novo trabalho no Instagram:</p>
           <a href="https://instagram.com/fabio_passos_cutelaria" target="_blank" rel="noreferrer" className="mt-3 block font-display text-lg text-gold">
             @FABIO_PASSOS_CUTELARIA
